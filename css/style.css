@@ -1,0 +1,65 @@
+/********* 
+1. General 
+2. Texts 
+3. StopWatch 
+4. Buttons 
+
+ *********/
+
+
+
+
+/* General  */
+#dark-mode
+{
+    background-color:black;
+    color:white;
+}
+#light-mode{
+    background-color:white;
+    color:black;
+}
+
+/* Texts */
+h1
+{
+    font-size:500%;   
+}
+.btn
+{
+    font-weight:bold;
+}
+
+/* StopWatch*/
+#stop-watch
+{   
+    margin: auto;
+    margin-top:15%;
+    width: 500px;
+    
+}
+
+/* Buttons */
+.btn
+{
+    padding:10px 40px;
+    border-radius:20px;
+    border:0px;
+    margin-right:15px;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+}
+
+#light{
+    background-color: black;
+    color: white;
+}
+#dark{
+
+    background-color: white;
+    color: black;
+}
+
